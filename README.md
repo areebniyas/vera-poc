@@ -1,4 +1,4 @@
-# Verdentra HR Chatbot
+# VERA
 
 An enterprise-grade HR assistant chatbot built with Next.js and FastAPI, powered by Azure OpenAI and Azure Cognitive Search. This application provides employees with instant access to HR policies, procedures, and information through an intelligent conversational interface.
 
