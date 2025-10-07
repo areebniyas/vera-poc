@@ -35,18 +35,18 @@ env/
 ENV/
 env.bak/
 venv.bak/
-backend/venv/
-backend/env/
+api/venv/
+api/env/
 
 # Node.js
 node_modules/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-verdentra-hr-chatbot/node_modules/
-verdentra-hr-chatbot/.next/
-verdentra-hr-chatbot/out/
-verdentra-hr-chatbot/build/
+web/node_modules/
+web/.next/
+web/out/
+web/build/
 
 # Next.js
 .next/
