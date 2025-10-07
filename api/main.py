@@ -11,7 +11,7 @@ import re
 # Load environment variables
 load_dotenv()
 
-app = FastAPI(title="Verdentra HR Chatbot API", version="1.0.0")
+app = FastAPI(title="Vera API", version="1.0.0")
 
 # Add CORS middleware
 app.add_middleware(
@@ -51,7 +51,7 @@ chat_sessions: Dict[str, List[ChatMessage]] = {}
 
 @app.get("/")
 async def root():
-    return {"message": "Verdentra HR Chatbot API is running"}
+    return {"message": "Vera API is running"}
 
 @app.get("/health")
 async def health_check():
